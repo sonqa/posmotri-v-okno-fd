@@ -20,10 +20,9 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
-              <span class="search-form__label-text visually-hidden">Город</span>
               <input
                 type="text"
-                placeholder="Санкт Петербург, например"
+                placeholder="Санкт-Петербург, например"
                 name="city"
                 class="search-form__textfield"
               />
@@ -74,14 +73,10 @@
           <span class="content__accent">По-</span><br />смотри<br />в окно
         </h1>
         <div class="content__list-container">
-          <ul class="content__list">
-            <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
-          </ul>
+          <ul class="content__list"></ul>
         </div>
       </section>
     </main>
-
-    <!-- ТЕМПЛЕЙТЫ -->
 
     <template class="preloader-template">
       <div class="preloader">
@@ -96,7 +91,7 @@
 
     <template class="cards-list-item-template">
       <li class="content__list-item">
-        <a href="#0" class="content__card-link">
+        <a href="#" class="content__card-link">
           <article class="content__video-card">
             <div class="content__video-card-description-container">
               <h2 class="content__video-card-title"></h2>
@@ -107,6 +102,7 @@
         </a>
       </li>
     </template>
+
     <template class="more-button-template">
       <button class="button more-button">Показать еще</button>
     </template>
@@ -116,6 +112,7 @@
         <h2 class="error__title">Из этого города нет видео :(</h2>
       </div>
     </template>
+
     <script src="./scripts/script.js"></script>
   </body>
 </html>
