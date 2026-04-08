@@ -16,6 +16,11 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
 
 h1,
@@ -35,14 +40,6 @@ fieldset {
 ul,
 ol {
   list-style: none;
-}
-
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
 }
 
 .content {
@@ -273,8 +270,8 @@ ol {
 .button:active,
 .search-form__submit-button:active,
 .more-button:active {
-  background-color: #545050;   
-  border-color: #545050;        
+  background-color: #545050;
+  border-color: #545050;
   color: #fff;
 }
 
@@ -302,7 +299,7 @@ ol {
 }
 
 .content__accent {
-  color: #545050;   
+  color: #545050;
 }
 
 .content__list-container {
