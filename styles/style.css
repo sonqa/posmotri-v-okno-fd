@@ -67,7 +67,7 @@ ol {
   gap: 26px;
   width: 399px;
   flex-shrink: 0;
-  margin-top: 20px;   
+  margin-top: 20px;
   margin-left: -5px;
 }
 
@@ -217,7 +217,7 @@ ol {
   width: 194px;
   height: 34px;
   align-self: flex-end;
-  margin-right: 8px; 
+  margin-right: 8px;
 }
 
 .more-button {
@@ -238,7 +238,7 @@ ol {
 
 .button:active {
   background-color: #545050;
-  border-color: #fff; 
+  border-color: #fff;
 }
 
 .button:focus {
