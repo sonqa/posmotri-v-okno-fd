@@ -55,7 +55,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 9px;
-  width: 740px;
   flex: 3;
   min-width: 711px;
   margin-top: 95px;
@@ -65,15 +64,13 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  width: 399px;
+  min-width: 399px;
   flex-shrink: 0;
-  margin-top: 20px;
-  margin-left: -5px;
 }
 
 .result__video-container {
-  width: 100%;
-  height: 405px;
+  width: 711px;
+  height: 386px;
   position: relative;
 }
 
@@ -88,7 +85,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 16px;
+  gap: 16px; 
   width: 100%;
   height: auto;
 }
@@ -207,29 +204,23 @@ ol {
   padding: 10px 20px;
   cursor: pointer;
   transition: all 0.2s;
-}
-
-.search-form__submit-button {
+  height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.search-form__submit-button {
   gap: 10px;
   width: 194px;
-  height: 34px;
   align-self: flex-end;
-  margin-right: 8px;
 }
 
 .more-button {
   width: 100%;
-  height: 34px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  font-weight: 700;
-  font-size: 18px;
-  margin-top: 180px;
+  flex-shrink: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .button:hover {
@@ -264,13 +255,13 @@ ol {
   color: #545050;
 }
 
-.content__list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  width: 420px;
-  height: 320px;
-  overflow-y: auto;
+.content__list-container { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 30px; 
+  width: 420px; 
+  height: 320px; 
+  overflow-y: auto; 
 }
 
 .content__list-container::-webkit-scrollbar {
@@ -291,7 +282,6 @@ ol {
   flex-direction: column;
   gap: 30px;
   width: 100%;
-  min-height: 502px;
 }
 
 .content__list-item {
@@ -362,15 +352,15 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: #545454;
+  background-color: #545050;
+;
 }
 
 .content__card-link:active {
-  background-color: #545454;
+  background-color: #545050;
 }
 
-.content__card-link:hover .content__video-card-title,
-.content__card-link:hover .content__video-card-description {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
