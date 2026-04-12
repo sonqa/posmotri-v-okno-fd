@@ -85,7 +85,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 16px; 
+  gap: 16px;
   width: 100%;
   height: auto;
 }
@@ -255,13 +255,13 @@ ol {
   color: #545050;
 }
 
-.content__list-container { 
-  display: flex; 
-  flex-direction: column; 
-  gap: 30px; 
-  width: 420px; 
-  height: 320px; 
-  overflow-y: auto; 
+.content__list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 420px;
+  height: 320px;
+  overflow-y: auto;
 }
 
 .content__list-container::-webkit-scrollbar {
@@ -353,7 +353,6 @@ ol {
 
 .content__card-link_current {
   background-color: #545050;
-;
 }
 
 .content__card-link:active {
