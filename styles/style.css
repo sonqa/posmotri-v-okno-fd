@@ -58,7 +58,6 @@ ol {
   flex: 3;
   min-width: 711px;
   margin-top: 95px;
-  margin-left: -10px;
 }
 
 .content__details {
@@ -67,7 +66,7 @@ ol {
   gap: 26px;
   min-width: 399px;
   flex-shrink: 0;
-  margin-top: 20px;   
+  margin-top: 20px;
   margin-left: 5px;
 }
 
