@@ -11,7 +11,7 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin: 0 auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -58,6 +58,7 @@ ol {
   flex: 3;
   min-width: 711px;
   margin-top: 95px;
+  margin-left: -10px;
 }
 
 .content__details {
@@ -66,6 +67,8 @@ ol {
   gap: 26px;
   min-width: 399px;
   flex-shrink: 0;
+  margin-top: 20px;   
+  margin-left: 5px;
 }
 
 .result__video-container {
